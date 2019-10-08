@@ -1,0 +1,31 @@
+﻿@model WebApplication6.Models.Account
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <title>登录成功</title>
+</head>
+<body style="background-color:#F1F1F1;">
+    <div class="text-center"> 
+        <h1>@ViewBag.Greeting，@Model.Nickname</h1>
+        <div class="lead">
+            @if (Model.AcceptAgreement==true)
+            {
+                @:恭喜！你同意了协议。
+            }
+            else
+            {
+                @:遗憾！您否定了协议。
+            }
+        </div>
+    </div>
+</body>
+</html>
