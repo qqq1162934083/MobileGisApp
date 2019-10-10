@@ -1,4 +1,4 @@
-﻿using Domain.General;
+﻿using Domain.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace WebApplication6.Controllers
         // GET: Person
         public ActionResult Space()
         {
-            Person person = new Person
+            PersonViewModel person = new PersonViewModel
             {
                 Name = "刘华栋",
                 Age = 19,

@@ -1,3 +1,4 @@
+using DAL.EF.WebGeneralDB;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,13 @@ namespace WebApplication6
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            //EF¿ò¼ÜµÄ³õÊ¼»¯
+            System.Data.Entity.Database.SetInitializer(new AppDbInitializer());
+            using (AppDbContext db = new AppDbContext())
+            {
+                db.Database.Initialize(true);
+            }
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿using Domain.General;
+﻿using Domain.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,7 +19,7 @@ namespace WebApplication6.Controllers
 
 
         [HttpPost]
-        public ActionResult Index(Account account)
+        public ActionResult Index(AccountViewModel account)
         {
             if (ModelState.IsValid&&account.Password.Equals(account.AccountNumber+"+"))
             {

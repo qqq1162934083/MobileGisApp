@@ -43,11 +43,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="About.cs" />
-    <Compile Include="General\Account.cs" />
-    <Compile Include="General\Person.cs" />
+    <Compile Include="DBModel\WebGeneralDB\Account.cs" />
+    <Compile Include="ViewModel\AccountViewModel.cs" />
+    <Compile Include="ViewModel\PersonViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test\Product.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="General\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

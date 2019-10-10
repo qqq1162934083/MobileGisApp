@@ -2,3 +2,8 @@ C:\Users\116\source\repos\WebApplication6\Domain\bin\Debug\Domain.dll
 C:\Users\116\source\repos\WebApplication6\Domain\bin\Debug\Domain.pdb
 C:\Users\116\source\repos\WebApplication6\Domain\obj\Debug\Domain.dll
 C:\Users\116\source\repos\WebApplication6\Domain\obj\Debug\Domain.pdb
+D:\workspace\WebApplication6\Domain\bin\Debug\Domain.dll
+D:\workspace\WebApplication6\Domain\bin\Debug\Domain.pdb
+D:\workspace\WebApplication6\Domain\obj\Debug\Domain.csprojAssemblyReference.cache
+D:\workspace\WebApplication6\Domain\obj\Debug\Domain.dll
+D:\workspace\WebApplication6\Domain\obj\Debug\Domain.pdb

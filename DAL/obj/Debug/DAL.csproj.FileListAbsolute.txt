@@ -1,0 +1,13 @@
+D:\workspace\WebApplication6\DAL\bin\Debug\DAL.dll.config
+D:\workspace\WebApplication6\DAL\bin\Debug\DAL.dll
+D:\workspace\WebApplication6\DAL\bin\Debug\DAL.pdb
+D:\workspace\WebApplication6\DAL\bin\Debug\Domain.dll
+D:\workspace\WebApplication6\DAL\bin\Debug\EntityFramework.dll
+D:\workspace\WebApplication6\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\workspace\WebApplication6\DAL\bin\Debug\Domain.pdb
+D:\workspace\WebApplication6\DAL\bin\Debug\EntityFramework.xml
+D:\workspace\WebApplication6\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\workspace\WebApplication6\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\workspace\WebApplication6\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\workspace\WebApplication6\DAL\obj\Debug\DAL.dll
+D:\workspace\WebApplication6\DAL\obj\Debug\DAL.pdb
