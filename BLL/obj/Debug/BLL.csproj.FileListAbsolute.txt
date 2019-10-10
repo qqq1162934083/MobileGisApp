@@ -1,0 +1,4 @@
+D:\workspace\MobileGisApp\BLL\bin\Debug\BLL.dll
+D:\workspace\MobileGisApp\BLL\bin\Debug\BLL.pdb
+D:\workspace\MobileGisApp\BLL\obj\Debug\BLL.dll
+D:\workspace\MobileGisApp\BLL\obj\Debug\BLL.pdb

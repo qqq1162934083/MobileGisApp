@@ -1,5 +1,0 @@
-C:\Users\116\source\repos\WebApplication6\Domain\bin\Release\Domain.dll
-C:\Users\116\source\repos\WebApplication6\Domain\bin\Release\Domain.pdb
-C:\Users\116\source\repos\WebApplication6\Domain\obj\Release\Domain.csprojAssemblyReference.cache
-C:\Users\116\source\repos\WebApplication6\Domain\obj\Release\Domain.dll
-C:\Users\116\source\repos\WebApplication6\Domain\obj\Release\Domain.pdb

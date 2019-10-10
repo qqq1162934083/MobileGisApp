@@ -1,0 +1,5 @@
+D:\workspace\MobileGisApp\Methods\bin\Debug\Methods.dll
+D:\workspace\MobileGisApp\Methods\bin\Debug\Methods.pdb
+D:\workspace\MobileGisApp\Methods\obj\Debug\Methods.csprojAssemblyReference.cache
+D:\workspace\MobileGisApp\Methods\obj\Debug\Methods.dll
+D:\workspace\MobileGisApp\Methods\obj\Debug\Methods.pdb
