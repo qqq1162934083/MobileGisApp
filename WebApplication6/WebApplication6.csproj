@@ -122,6 +122,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\PersonController.cs" />
     <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Controllers\WelcomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -130,11 +131,36 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\auth.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap-theme2.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Styles.css" />
+    <Content Include="Content\swiper.min.css" />
+    <Content Include="Pictures\arrow-left.png" />
+    <Content Include="Pictures\arrow-right.png" />
+    <Content Include="Pictures\behance.png" />
+    <Content Include="Pictures\bg-pat.png" />
+    <Content Include="Pictures\dribbble.png" />
+    <Content Include="Pictures\github.png" />
+    <Content Include="Pictures\hero-bg.jpg" />
+    <Content Include="Pictures\icons.png" />
+    <Content Include="Pictures\kodinger.jpg" />
+    <Content Include="Pictures\location.png" />
+    <Content Include="Pictures\logo-1.png" />
+    <Content Include="Pictures\logo-2.png" />
+    <Content Include="Pictures\logo-3.png" />
+    <Content Include="Pictures\menu.png" />
+    <Content Include="Pictures\twitter.png" />
+    <Content Include="Pictures\海贼王1.jpg" />
+    <Content Include="Pictures\海贼王3.jpg" />
+    <Content Include="Scripts\auth.js" />
+    <Content Include="Scripts\jquery-2.1.1.js" />
+    <Content Include="Scripts\login-register.js" />
+    <Content Include="Scripts\npm.js" />
+    <Content Include="Scripts\swiper.jquery.min.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -157,6 +183,7 @@
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.counterup.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
@@ -180,6 +207,8 @@
     <Content Include="Views\Login\Error.cshtml" />
     <Content Include="Views\PageLayout\_BasicLayout.cshtml" />
     <Content Include="Views\Test\Result.cshtml" />
+    <Content Include="Views\Person\Space.cshtml" />
+    <Content Include="Scripts\waypoints.min.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
