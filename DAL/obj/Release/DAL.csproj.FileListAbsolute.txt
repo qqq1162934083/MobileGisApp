@@ -1,0 +1,13 @@
+D:\workspace\MobileGisApp\DAL\bin\Release\DAL.dll.config
+D:\workspace\MobileGisApp\DAL\bin\Release\DAL.dll
+D:\workspace\MobileGisApp\DAL\bin\Release\DAL.pdb
+D:\workspace\MobileGisApp\DAL\bin\Release\Domain.dll
+D:\workspace\MobileGisApp\DAL\bin\Release\EntityFramework.dll
+D:\workspace\MobileGisApp\DAL\bin\Release\EntityFramework.SqlServer.dll
+D:\workspace\MobileGisApp\DAL\bin\Release\Domain.pdb
+D:\workspace\MobileGisApp\DAL\bin\Release\EntityFramework.xml
+D:\workspace\MobileGisApp\DAL\bin\Release\EntityFramework.SqlServer.xml
+D:\workspace\MobileGisApp\DAL\obj\Release\DAL.csprojAssemblyReference.cache
+D:\workspace\MobileGisApp\DAL\obj\Release\DAL.csproj.CopyComplete
+D:\workspace\MobileGisApp\DAL\obj\Release\DAL.dll
+D:\workspace\MobileGisApp\DAL\obj\Release\DAL.pdb

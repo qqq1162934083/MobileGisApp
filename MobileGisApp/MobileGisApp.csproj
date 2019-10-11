@@ -138,19 +138,36 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\all.min.css" />
     <Content Include="Content\auth.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap-theme2.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootstrap.min.v4.2.1.css" />
+    <Content Include="Content\PersonContactFontsFromGoogle.css" />
     <Content Include="Content\Styles.css" />
     <Content Include="Content\swiper.min.css" />
+    <Content Include="Content\templatemo-style.css" />
+    <Content Include="fonts\fa-brands-400.svg" />
+    <Content Include="fonts\fa-regular-400.svg" />
+    <Content Include="fonts\fa-solid-900.svg" />
     <Content Include="Pictures\arrow-left.png" />
     <Content Include="Pictures\arrow-right.png" />
     <Content Include="Pictures\behance.png" />
     <Content Include="Pictures\bg-pat.png" />
     <Content Include="Pictures\dribbble.png" />
+    <Content Include="Pictures\forty_image_01.jpg" />
+    <Content Include="Pictures\forty_image_02.jpg" />
+    <Content Include="Pictures\forty_image_11.jpg" />
+    <Content Include="Pictures\forty_image_12.jpg" />
+    <Content Include="Pictures\forty_image_13.jpg" />
+    <Content Include="Pictures\forty_image_14.jpg" />
+    <Content Include="Pictures\forty_image_21.jpg" />
+    <Content Include="Pictures\forty_image_22.jpg" />
+    <Content Include="Pictures\forty_image_31.jpg" />
+    <Content Include="Pictures\forty_image_32.jpg" />
     <Content Include="Pictures\github.png" />
     <Content Include="Pictures\hero-bg.jpg" />
     <Content Include="Pictures\icons.png" />
@@ -160,9 +177,21 @@
     <Content Include="Pictures\logo-2.png" />
     <Content Include="Pictures\logo-3.png" />
     <Content Include="Pictures\menu.png" />
+    <Content Include="Pictures\QQLogo.png" />
     <Content Include="Pictures\twitter.png" />
+    <Content Include="Pictures\WeChatLogo.png" />
+    <Content Include="Pictures\WeChatLogo2.png" />
+    <Content Include="Pictures\代码屏幕-C#.png" />
+    <Content Include="Pictures\代码屏幕1.png" />
+    <Content Include="Pictures\健身Logo1.png" />
+    <Content Include="Pictures\健身Logo2.png" />
+    <Content Include="Pictures\向前滑动1.png" />
+    <Content Include="Pictures\向后滑动1.png" />
     <Content Include="Pictures\海贼王1.jpg" />
     <Content Include="Pictures\海贼王3.jpg" />
+    <Content Include="Pictures\游戏手柄1.png" />
+    <Content Include="Pictures\空白Logo1.png" />
+    <Content Include="Pictures\麦克风1.png" />
     <Content Include="Scripts\auth.js" />
     <Content Include="Scripts\jquery-2.1.1.js" />
     <Content Include="Scripts\login-register.js" />
@@ -181,6 +210,18 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="fonts\fa-brands-400.eot" />
+    <Content Include="fonts\fa-brands-400.ttf" />
+    <Content Include="fonts\fa-brands-400.woff" />
+    <Content Include="fonts\fa-brands-400.woff2" />
+    <Content Include="fonts\fa-regular-400.eot" />
+    <Content Include="fonts\fa-regular-400.ttf" />
+    <Content Include="fonts\fa-regular-400.woff" />
+    <Content Include="fonts\fa-regular-400.woff2" />
+    <Content Include="fonts\fa-solid-900.eot" />
+    <Content Include="fonts\fa-solid-900.ttf" />
+    <Content Include="fonts\fa-solid-900.woff" />
+    <Content Include="fonts\fa-solid-900.woff2" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -216,6 +257,7 @@
     <Content Include="Views\Test\Result.cshtml" />
     <Content Include="Views\Person\Space.cshtml" />
     <Content Include="Scripts\waypoints.min.js" />
+    <Content Include="Views\Person\Contact.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

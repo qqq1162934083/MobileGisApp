@@ -21,5 +21,17 @@ namespace MobileGisApp.Controllers
             };
             return View(person);
         }
+
+        public ActionResult Contact()
+        {
+            PersonViewModel person = new PersonViewModel
+            {
+                Name = "刘华栋",
+                Age = 19,
+                PhoneNumber = "0000-0000",
+                SelfIntroduction = "快创建你的个人信息加入我吧"
+            };
+            return View(person);
+        }
     }
 }

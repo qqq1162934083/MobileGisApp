@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAO\WebGeneralDBDao\AccountDao.cs" />
     <Compile Include="EF\WebGeneralDB\AppDbInitializer.cs" />
     <Compile Include="EF\WebGeneralDB\AppDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -59,9 +60,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DAO\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj">
       <Project>{A9D308B4-0432-49E4-A39E-5D733DE1C052}</Project>

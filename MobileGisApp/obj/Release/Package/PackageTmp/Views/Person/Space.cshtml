@@ -1,0 +1,402 @@
+﻿@model Domain.ViewModel.PersonViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 以下3个元标签必须放在最前面 -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>@{@Model.Name}的主页</title>
+
+    <!-- Bootstrap -->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Content/bootstrap-theme2.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/Content/swiper.min.css">
+    <link href="~/Content/Styles.css" rel="stylesheet">
+    <link href="~/Content/auth.css" rel="stylesheet" />
+
+    <!-- 谷歌 字体 -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:300,400,700" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-6 col-xs-12">
+                    <nav>
+                        <div id="menu-toggle">
+                            <div class="hamburger">
+                                <span class="line"></span>
+                                <span class="line"></span>
+                                <span class="line"></span>
+                            </div>
+                            <div class="cross">
+                                <span class="line"></span>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                        <ul class="main-nav">
+                            <li><a href="javascript:void(0)" style="font-size:large">主页</a></li>
+                            <li><a href="javascript:void(0)" style="font-size:large" onclick="openLoginModal();">登录</a></li>
+                            <li><a href="~/About/Index" style="font-size:large">关于</a></li>
+                            <li><a href="~/Person/Contact" style="font-size:large">联系我</a></li>
+                        </ul>
+                    </nav>
+                    <div class="hero-text">
+                        <h1><span>你好, 我是</span><br>@Model.Name.</h1>
+                        <h3>来自湖南科技大学</h3>
+                        <a href="~/Person/Contact" class="btn btn-lg btn-primary">了解更多</a>
+                        <ul class="social-links">
+                            <li class="label">加入我吧</li>
+                            <li><a href="~/Person/Contact"><img src="~/Pictures/QQLogo.png"></a></li>
+                            <li><a href="~/Person/Contact"><img src="~/Pictures/WeChatLogo2.png"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="case-study">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="sub-heading">兴趣爱好</h4>
+                    <h1 class="heading purple"><span class="purple">分享</span> 给 <br>你的朋友</h1>
+                    <!-- Swiper插件 -->
+                    <div class="swiper-container client-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide client-box">
+                                <img src="~/Pictures/健身Logo2.png" class="client-logo">
+                                <h3 class="text-left title">健身</h3>
+                                <p class="text-left tag">难以抵挡的诱惑</p><br />
+                                <p class="text-left"><a href="~/Person/Contact">了解更多 &#8594;</a></p>
+                            </div>
+                            <div class="swiper-slide client-box">
+                                <img src="~/Pictures/代码屏幕1.png" class="client-logo">
+                                <h3 class="text-left title">代码</h3>
+                                <p class="text-left tag">即使面临头秃的风险，<br />只因为它很有意思</p>
+                                <p class="text-left tag"></p>
+                                <p class="text-left"><a href="~/Person/Contact">了解更多 &#8594;</a></p>
+                            </div>
+                            <div class="swiper-slide client-box">
+                                <img src="~/Pictures/麦克风1.png" class="client-logo">
+                                <h3 class="text-left title">唱歌</h3>
+                                <p class="text-left tag">可能是天生对节奏敏感，<br />水平虽差喜爱却不减</p>
+                                <p class="text-left"><a href="~/Person/Contact">了解更多 &#8594;</a></p>
+                            </div>
+                            <div class="swiper-slide client-box">
+                                <img src="~/Pictures/游戏手柄1.png" class="client-logo">
+                                <h3 class="text-left title">游戏</h3>
+                                <p class="text-left tag">多数男生的通病，<br />Rush, Gank, 你都懂的</p>
+                                <p class="text-left"><a href="~/Person/Contact">了解更多 &#8594;</a></p>
+                            </div>
+                            <div class="swiper-slide client-box">
+                                <img src="~/Pictures/空白Logo1.png" class="client-logo">
+                                <h3 class="text-left title"></h3><br />
+                                <p class="text-left tag">没有更多了</p><br /><br />
+                                <p class="text-left"><a href="javascript:void(0)"></a></p><br />
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="sub-heading">评论</h4>
+                    <h1 class="heading pink"><span class="pink">来自</span> 好友 <br>一些话语</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Swiper -->
+                    <div class="swiper-container testimonial-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide testimonial-box yellow">
+                                <h1>Pixel Perfect design</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                <div class="text-right">
+                                    <p class="name">- John Doe</p>
+                                    <p class="designation">Founder, Arrow</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide testimonial-box purple">
+                                <h1>Minimal and Clean</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                <div class="text-right">
+                                    <p class="name">- Rocky Hych</p>
+                                    <p class="designation">CTO, Upside Down</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide testimonial-box blue">
+                                <h1>Built with Bootstrap</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                <div class="text-right">
+                                    <p class="name">- John Doe</p>
+                                    <p class="designation">Founder, Arrow</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide testimonial-box pink">
+                                <h1>Responsive template</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                <div class="text-right">
+                                    <p class="name">- Rocky Hych</p>
+                                    <p class="designation">CTO, Upside Down</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide testimonial-box yellow">
+                                <h1>Pixel Perfect</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                <div class="text-right">
+                                    <p class="name">- John Doe</p>
+                                    <p class="designation">Founder, Arrow</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide testimonial-box purple">
+                                <h1>Minimal and Clean</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                <div class="text-right">
+                                    <p class="name">- Rocky Hych</p>
+                                    <p class="designation">CTO, Upside Down</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide testimonial-box blue">
+                                <h1>Pixel Perfect</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                <div class="text-right">
+                                    <p class="name">- John Doe</p>
+                                    <p class="designation">Founder, Arrow</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide testimonial-box pink">
+                                <h1>Minimal and Clean</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                <div class="text-right">
+                                    <p class="name">- Rocky Hych</p>
+                                    <p class="designation">CTO, Upside Down</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 访问数据 -->
+    <section class="stats">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center stat-box">
+                    <h1 class="purple"><span class="counter">3.2</span>k</h1>
+                    <h3>访问次数</h3>
+                </div>
+                <div class="col-md-4 text-center stat-box">
+                    <h1 class="blue counter">217</h1>
+                    <h3>访问量</h3>
+                </div>
+                <div class="col-md-4 text-center stat-box">
+                    <h1 class="pink"><span class="counter">18.3</span>k</h1>
+                    <h3>点赞数</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系标语 -->
+    <section class="contact-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>加入我们，制作属于自己的个人主页吧！</h1>
+                    <a href="~/Person/Contact" class="btn btn-lg btn-primary">立即加入</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row footer">
+                <div class="col-md-12 text-center">
+                    <h1>感谢您的访问<br><span>Thanks</span></h1>
+                    <ul class="social-links">
+                        <li><a href="~/Person/Contact"><img src="~/Pictures/QQLogo.png"></a></li>
+                        <li><a href="~/Person/Contact"><img src="~/Pictures/WeChatLogo2.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row sub-footer">
+                <div class="col-md-12 text-center">
+                    <p>Designed by <a href="~/Person/Contact">@Model.Name</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 登录和注册的模态框 -->
+    <div class="modal fade login" id="loginModal">
+        <div class="lowin lowin-purple">
+            <div class="lowin-brand">
+                <img src="~/Pictures/kodinger.jpg" alt="logo">
+            </div>
+            <div class="lowin-wrapper">
+                <div class="lowin-box lowin-login">
+                    <div class="lowin-box-inner">
+                        <form id="loginForm" onsubmit="return false" action="##" method="post">
+                            <p>登录到您的账户</p>
+                            <div class="lowin-group">
+                                <label>邮箱 <a href="javascript:void(0)" class="login-back-link">登录?</a></label>
+                                <input id="LoginEmail" type="email" autocomplete="email" name="email" class="lowin-input">
+                            </div>
+                            <div class="lowin-group password-group">
+                                <label>密码 <a href="javascript:void(0)" class="forgot-link">忘记密码?</a></label>
+                                <input id="LoginPassword" type="password" name="password" autocomplete="current-password" class="lowin-input">
+                            </div>
+                            <button class="lowin-btn login-btn" onclick="login()">
+                                登录
+                            </button>
+
+                            <div class="text-foot">
+                                还没有账户?&nbsp;&nbsp;&nbsp; <a href="javascript: openRegisterModal();" class="register-link">注册</a>一个吧
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade login" id="registerModal">
+        <div class="lowin lowin-purple">
+            <div class="lowin-brand">
+                <img src="~/Pictures/kodinger.jpg" alt="logo">
+            </div>
+            <div class="lowin-wrapper">
+                <div class="lowin-box lowin-register">
+                    <div class="lowin-box-inner">
+                        <form method="post">
+                            <p>创建你的账户吧</p>
+                            <div class="lowin-group">
+                                <label>昵称</label>
+                                <input type="text" name="name" autocomplete="name" class="lowin-input">
+                            </div>
+                            <div class="lowin-group">
+                                <label>邮箱</label>
+                                <input type="email" autocomplete="email" name="email" class="lowin-input">
+                            </div>
+                            <div class="lowin-group">
+                                <label>密码</label>
+                                <input type="password" name="password" autocomplete="current-password" class="lowin-input">
+                            </div>
+                            <button class="lowin-btn">
+                                注册
+                            </button>
+
+                            <div class="text-foot">
+                                已经有账户了? <a href="javascript: openLoginModal();" class="login-link">登录</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 脚本 -->
+    <script src="~/Scripts/jquery-2.1.1.js"></script>
+    <script src="~/Scripts/swiper.jquery.min.js"></script>
+    <script src="~/Scripts/login-register.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <!-- Initialize Client Swiper -->
+    <script>
+        var swiper1 = new Swiper('.client-swiper', {
+            slidesPerView: 3,
+            paginationClickable: true,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            spaceBetween: 60,
+            // Responsive breakpoints
+            breakpoints: {
+                // when window width is <= 320px
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                    pagination: '.swiper-pagination'
+                },
+                // when window width is <= 480px
+                480: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                },
+                // when window width is <= 640px
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 30
+                }
+            }
+        });
+        // Initialize Testimonial Swiper
+        var swiper2 = new Swiper('.testimonial-swiper', {
+            slidesPerView: 3,
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            spaceBetween: 30,
+            grabCursor: true,
+            freeMode: true,
+            breakpoints: {
+                // when window width is <= 320px
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                // when window width is <= 480px
+                480: {
+                    slidesPerView: 1,
+                    spaceBetween: 10
+                },
+                // when window width is <= 640px
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 10
+                }
+            }
+        });
+    </script>
+    <script src="~/Scripts/waypoints.min.js"></script>
+    <script src="~/Scripts/jquery.counterup.min.js"></script>
+    <script src="~/Scripts/auth.js"></script>
+    <script>
+        // Counterup
+        $('.counter').counterUp({
+            time: 1000
+        });
+
+        // Main Navigation
+        $('#menu-toggle').click(function () {
+            $(this).toggleClass('open'),
+                $('.main-nav').toggleClass('show-it');
+        })
+    </script>
+
+</body>
+</html>

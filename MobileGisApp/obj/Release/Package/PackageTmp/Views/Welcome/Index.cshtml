@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <title>登录页面</title>
+</head>
+<body style="background-color:#F1F1F1" ;>
+    <div>
+        <h1>@ViewBag.Greeting,欢迎访问本站<img src="~/Pictures/eg_cute.gif" /></h1>
+
+        <a href="~/Login/Index" class="btn btn-primary">点我进入登录界面</a><br /><br />
+        @Html.ActionLink("关于本站", "Index", "About")
+        <br />
+        <a href="~/Test/Index" class="btn btn-default">进入测试界面</a>
+        <a href="~/Person/Space" class="btn btn-link">欣赏个人主页</a>
+    </div>
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+</body>
+</html>

@@ -1,0 +1,5 @@
+D:\workspace\MobileGisApp\Domain\bin\Release\Domain.dll
+D:\workspace\MobileGisApp\Domain\bin\Release\Domain.pdb
+D:\workspace\MobileGisApp\Domain\obj\Release\Domain.csprojAssemblyReference.cache
+D:\workspace\MobileGisApp\Domain\obj\Release\Domain.dll
+D:\workspace\MobileGisApp\Domain\obj\Release\Domain.pdb

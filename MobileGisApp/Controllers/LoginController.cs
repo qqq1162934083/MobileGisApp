@@ -1,4 +1,7 @@
-﻿using Domain.ViewModel;
+﻿using DAL.DAO.WebGeneralDBDao;
+using Domain.DBModel.WebGeneralDB;
+using Domain.ViewModel;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,14 +22,36 @@ namespace MobileGisApp.Controllers
 
 
         [HttpPost]
-        public ActionResult Index(AccountViewModel account)
+        public JsonResult AccountLogin(string email, string password)
         {
-            if (ModelState.IsValid&&account.Password.Equals(account.AccountNumber+"+"))
+            Account account = AccountDao.SelectByEmail(email);
+            if (account == null)
             {
-                ViewBag.Greeting = DateTime.Now.Hour < 12 ? "上午好" : "下午好";
-                return View("LoginResult", account);
+                var result = new
+                {
+                    status = false,
+                    message = "账号不存在"
+                };
+                return Json(result);
             }
-            return View();
+            else if(account.Password==password)
+            {
+                var result = new
+                {
+                    status = true,
+                    message = "登录成功"
+                };
+                return Json(result);
+            }
+            else
+            {
+                var result = new
+                {
+                    status = false,
+                    message = "密码错误"
+                };
+                return Json(result);
+            }
         }
     }
 }

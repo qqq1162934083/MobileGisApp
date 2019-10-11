@@ -1,0 +1,71 @@
+﻿@model Domain.ViewModel.AccountViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/Styles.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+    <title>登录页面</title>
+</head>
+<body style="background-color:#F1F1F1";>
+    <div class="panel panel-success">
+        <div class="panel-heading text-center"><h4>欢迎登录</h4></div> 
+        <div class="panel-body">
+            @using (Html.BeginForm())
+            {
+                @Html.ValidationSummary()
+                <div class="form-group">
+                    <label>账号：</label>
+                    @Html.TextBoxFor(x => x.AccountNumber, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    <label>密码：</label>
+                    @Html.PasswordFor(x => x.Password, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    <label>昵称：</label>
+                    @Html.TextBoxFor(x => x.Nickname, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    <label>手机：</label>
+                    @Html.TextBoxFor(x => x.Phone, new { @class = "form-control" })
+                </div>
+
+
+
+
+                <label>你是否接受该协议？</label>
+                @Html.DropDownListFor(x => x.AcceptAgreement, new[] {
+                    new SelectListItem()
+                    {
+                        Text="Yes,I accept.",
+                        Value=bool.TrueString
+                    },
+                    new SelectListItem()
+                    {
+                        Text="No,I don't accept.",
+                        Value=bool.FalseString
+                    }
+                }, "请选择", new { @class = "form-control" })
+                <br />
+                <div class="text-center" style="display:inline;">
+                    <div class="text-center" style="display:inline;">
+                        <a href="" style="text-align:left">注册</a>
+                    </div>
+                    <button type="submit" class="btn btn-success">登录</button>
+                </div>
+                <div class="text-center" style="display:inline;">
+                    <a href="" style="text-align:right">忘记密码?</a>
+                </div>
+            }
+        </div>
+    </div>
+</body>
+</html>

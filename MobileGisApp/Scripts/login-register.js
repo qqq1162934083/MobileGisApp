@@ -41,6 +41,7 @@ function openLoginModal(){
         $('#loginModal').modal('show');    
     }, 230);
 }
+
 function openRegisterModal() {
     //showRegisterForm();
     $('#loginModal').modal('hide');
@@ -51,19 +52,25 @@ function openRegisterModal() {
     
 }
 
-function loginAjax(){
-    /*   Remove this comments when moving to server
-    $.post( "/login", function( data ) {
-            if(data == 1){
-                window.location.replace("/home");            
-            } else {
-                 shakeModal(); 
-            }
-        });
-    */
-
-/*   Simulate error message from the server   */
-     shakeModal();
+//Òì²½µÇÂ¼
+function login() {
+    var emailStr = $("#LoginEmail").val();
+    var password = $("#LoginPassword").val();
+    $.ajax({
+        type: 'POST',
+        dataType: 'json',
+        url: '/Login/AccountLogin',
+        data: {
+            "email": emailStr,
+            "password": password
+        },
+        success: function (result) {
+            alert(result.message);
+        },
+        error: function () {
+            alert('error');
+        }
+    });
 }
 
 function shakeModal(){
