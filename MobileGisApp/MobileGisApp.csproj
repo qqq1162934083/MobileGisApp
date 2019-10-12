@@ -165,9 +165,10 @@
     <Content Include="Pictures\forty_image_13.jpg" />
     <Content Include="Pictures\forty_image_14.jpg" />
     <Content Include="Pictures\forty_image_21.jpg" />
-    <Content Include="Pictures\forty_image_22.jpg" />
+    <Content Include="Pictures\QQ二维码1.jpg" />
     <Content Include="Pictures\forty_image_31.jpg" />
-    <Content Include="Pictures\forty_image_32.jpg" />
+    <Content Include="Pictures\forty_image_32big.jpg" />
+    <Content Include="Pictures\微信二维码1.jpg" />
     <Content Include="Pictures\github.png" />
     <Content Include="Pictures\hero-bg.jpg" />
     <Content Include="Pictures\icons.png" />
@@ -177,6 +178,8 @@
     <Content Include="Pictures\logo-2.png" />
     <Content Include="Pictures\logo-3.png" />
     <Content Include="Pictures\menu.png" />
+    <Content Include="Pictures\QQ二维码.png" />
+    <Content Include="Pictures\WeChat二维码.png" />
     <Content Include="Pictures\QQLogo.png" />
     <Content Include="Pictures\twitter.png" />
     <Content Include="Pictures\WeChatLogo.png" />
@@ -196,6 +199,7 @@
     <Content Include="Scripts\jquery-2.1.1.js" />
     <Content Include="Scripts\login-register.js" />
     <Content Include="Scripts\npm.js" />
+    <Content Include="Scripts\person.space.js" />
     <Content Include="Scripts\swiper.jquery.min.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />

@@ -16,19 +16,19 @@
       <publishTime>09/10/2013 16:29:20</publishTime>
     </File>
     <File Include="bin/DAL.dll">
-      <publishTime>10/11/2019 22:41:24</publishTime>
+      <publishTime>10/12/2019 13:29:27</publishTime>
     </File>
     <File Include="bin/DAL.dll.config">
-      <publishTime>10/11/2019 23:03:19</publishTime>
+      <publishTime>10/11/2019 23:09:54</publishTime>
     </File>
     <File Include="bin/DAL.pdb">
-      <publishTime>10/11/2019 22:41:24</publishTime>
+      <publishTime>10/12/2019 13:29:27</publishTime>
     </File>
     <File Include="bin/Domain.dll">
-      <publishTime>10/10/2019 20:40:27</publishTime>
+      <publishTime>10/12/2019 13:29:27</publishTime>
     </File>
     <File Include="bin/Domain.pdb">
-      <publishTime>10/10/2019 20:40:27</publishTime>
+      <publishTime>10/12/2019 13:29:27</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>09/14/2019 17:01:18</publishTime>
@@ -43,10 +43,10 @@
       <publishTime>07/25/2012 11:48:56</publishTime>
     </File>
     <File Include="bin/MobileGisApp.dll">
-      <publishTime>10/11/2019 23:06:26</publishTime>
+      <publishTime>10/12/2019 13:29:28</publishTime>
     </File>
     <File Include="bin/MobileGisApp.pdb">
-      <publishTime>10/11/2019 23:06:26</publishTime>
+      <publishTime>10/12/2019 13:29:28</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>02/18/2018 09:44:54</publishTime>
@@ -223,7 +223,7 @@
       <publishTime>09/16/2019 13:45:11</publishTime>
     </File>
     <File Include="Content/Styles.css">
-      <publishTime>10/10/2019 11:06:16</publishTime>
+      <publishTime>10/12/2019 10:33:04</publishTime>
     </File>
     <File Include="Content/swiper.min.css">
       <publishTime>01/09/2018 14:07:43</publishTime>
@@ -345,6 +345,9 @@
     <File Include="Pictures/forty_image_32.jpg">
       <publishTime>10/10/2019 20:14:34</publishTime>
     </File>
+    <File Include="Pictures/forty_image_32big.jpg">
+      <publishTime>10/10/2019 20:14:34</publishTime>
+    </File>
     <File Include="Pictures/github.png">
       <publishTime>01/09/2018 14:07:43</publishTime>
     </File>
@@ -375,6 +378,12 @@
     <File Include="Pictures/QQLogo.png">
       <publishTime>10/10/2019 19:10:45</publishTime>
     </File>
+    <File Include="Pictures/QQ二维码.png">
+      <publishTime>10/12/2019 10:21:25</publishTime>
+    </File>
+    <File Include="Pictures/QQ二维码1.jpg">
+      <publishTime>10/12/2019 12:51:12</publishTime>
+    </File>
     <File Include="Pictures/twitter.png">
       <publishTime>01/09/2018 14:07:43</publishTime>
     </File>
@@ -383,6 +392,9 @@
     </File>
     <File Include="Pictures/WeChatLogo2.png">
       <publishTime>10/10/2019 19:47:48</publishTime>
+    </File>
+    <File Include="Pictures/WeChat二维码.png">
+      <publishTime>10/12/2019 10:13:57</publishTime>
     </File>
     <File Include="Pictures/代码屏幕-C#.png">
       <publishTime>10/10/2019 19:29:38</publishTime>
@@ -401,6 +413,9 @@
     </File>
     <File Include="Pictures/向后滑动1.png">
       <publishTime>10/10/2019 19:51:00</publishTime>
+    </File>
+    <File Include="Pictures/微信二维码1.jpg">
+      <publishTime>10/12/2019 12:52:08</publishTime>
     </File>
     <File Include="Pictures/海贼王1.jpg">
       <publishTime>10/10/2019 10:59:47</publishTime>
@@ -471,6 +486,9 @@
     <File Include="Scripts/npm.js">
       <publishTime>01/09/2018 14:07:43</publishTime>
     </File>
+    <File Include="Scripts/person.space.js">
+      <publishTime>10/12/2019 10:53:30</publishTime>
+    </File>
     <File Include="Scripts/swiper.jquery.min.js">
       <publishTime>01/09/2018 14:07:43</publishTime>
     </File>
@@ -508,10 +526,10 @@
       <publishTime>10/06/2019 16:30:31</publishTime>
     </File>
     <File Include="Views/Person/Contact.cshtml">
-      <publishTime>10/11/2019 21:09:42</publishTime>
+      <publishTime>10/12/2019 13:25:05</publishTime>
     </File>
     <File Include="Views/Person/Space.cshtml">
-      <publishTime>10/11/2019 17:08:13</publishTime>
+      <publishTime>10/12/2019 13:27:02</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>09/16/2019 13:45:11</publishTime>
@@ -532,7 +550,7 @@
       <publishTime>09/16/2019 13:45:11</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>10/11/2019 23:06:27</publishTime>
+      <publishTime>10/12/2019 13:29:28</publishTime>
     </File>
   </ItemGroup>
 </Project>

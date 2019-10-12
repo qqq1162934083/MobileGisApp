@@ -12,6 +12,8 @@ namespace Domain.ViewModel
     {
         public string Name { get; set; }
 
+        public string PinyinInitials { get; set; }
+
         public int Age { get; set; }
 
         public string PhoneNumber { get; set; }
